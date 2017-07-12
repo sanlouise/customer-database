@@ -1,0 +1,55 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.name {
+  font-weight: 800;
+  border-bottom: 2px solid green;
+  display: inline
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+}
+
+div {
+  width: 220px;
+  margin: 10px;
+}
+
+img {
+  width: 220px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+}
+
+.ssn {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.ssn:hover {
+  color: #000;
+  text-shadow: none;
+}
+
+.email {
+  font-size: 15px;
+}
