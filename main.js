@@ -57,7 +57,6 @@ customers.results.forEach(customer => {
   ssn.classList += "ssn";
   address.classList += "address";
   phone.classList += "phone";
-  email.classList += "email";
 
 
 });
